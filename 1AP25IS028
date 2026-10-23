@@ -3,14 +3,11 @@
 int main() {
     int firstNumber, secondNumber, sum;
     
-    // Ask user for input
     printf("Enter two integers: ");
     scanf("%d %d", &firstNumber, &secondNumber);
     
-    // Calculate the total
     sum = firstNumber + secondNumber;
     
-    // Display the output
     printf("%d + %d = %d\n", firstNumber, secondNumber, sum);
     
     return 0;
